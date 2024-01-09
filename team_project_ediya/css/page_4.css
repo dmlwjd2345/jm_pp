@@ -1,0 +1,43 @@
+
+.page_4{
+    width: 1920px;
+    height: 1560px;
+    /* background-color: skyblue; */
+    margin: 0 auto;
+}
+
+/* hover */
+.goods_box img:hover{
+    transform: scale(1.2);
+}
+
+.title_back_img{
+    width: 1920px;
+    height: 500px;
+    line-height: 450px;
+    text-align: center;
+    background-image: url(../img/croffle_blur.png);
+    background-position: top center;
+    background-size: cover;
+}
+
+.title_box:nth-child(2) {
+    margin-top: -400px;
+    font-size: 36px;
+    font-weight: 200;
+}
+
+.title_box{
+    color: white;
+    font-size: 50px;
+}
+.goods_box{
+    float: left;
+    margin-top: 100px;
+    margin-left: 115px;
+}
+.goods_title{
+    text-align: center;
+    font-weight: bold;
+}
+

@@ -1,0 +1,115 @@
+.main_header{
+    width: 100%;
+    height: 180px;
+    background-color: #253B82;
+}
+.main_logo{
+    width: 100%;
+    height: 100px;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 150px;
+    color: white;
+    margin-bottom: 20px;
+}
+.main_menu{
+    width: 920px;
+    height: 60px;
+    margin: 0 auto;
+}
+.main_menu>li{
+width: 153px;
+height: 100%;
+font-size: 15px;
+text-align: center;
+line-height: 60px;
+color: white;
+float: left;
+cursor: pointer;
+}
+.page_1{
+    width: 100%;
+    height: 920px;
+    background-color: #253B82;
+    position: relative;
+    overflow: hidden;
+}
+.main_img{
+    position: absolute;
+    width: 750px;
+    height: 750px;
+    top: 50%;
+    margin-top : -400px;
+    left: 50%;
+    margin-left: -350px;
+}
+.move_img{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+}
+/* 베이글 */
+.move_img:nth-child(2){
+top: 0;
+left: 50%;
+margin-left: -1100px;
+animation: up-down_1 0.8s infinite ease alternate;
+}
+/* 약과쿠키 */
+.move_img:nth-child(3){
+    top: -100px;
+    right: 50%;
+    margin-right: -1200px;
+    animation: up-down_2 0.9s infinite ease-in-out alternate;
+}
+/* 치즈케이크 */
+.move_img:nth-child(4){
+bottom: -20px;
+right: 50%;
+margin-right: -800px;
+animation: up-down_3 0.9s infinite ease alternate;
+
+
+}
+/* 츄러스 */
+.move_img:nth-child(5){
+    bottom: -150px;
+    left: 50%;
+    margin-left: -800px;
+    animation: up-down_4 0.8s infinite ease-in-out alternate;
+    
+    }
+
+    @keyframes up-down_1{
+        from{
+          transform: translateY(0px);
+        }
+        to{
+          transform: translateY(-40px);
+        }
+    }
+    @keyframes up-down_2{
+        from{
+          transform: translateY(-30px);
+        }
+        to{
+          transform: translateY(10px);
+        }
+    }
+    @keyframes up-down_3{
+        from{
+          transform: translateY(-30px);
+        }
+        to{
+          transform: translateY(10px);
+        }
+    }
+    @keyframes up-down_4{
+        from{
+          transform: translateY(0px) rotate(45deg); 
+        }
+        to{
+          transform: translateY(-40px) rotate(45deg);
+        }
+    }

@@ -1,0 +1,41 @@
+
+.footer{
+    width: 1920px;
+    height: 540px;
+    background-color: rgb(59, 59, 59);
+    position: absolute;
+  
+}
+.footer_title{    
+     color: rgb(172, 172, 172);
+     font-size: 20px;
+     text-align: center;
+     position: relative;
+     top: 55px;
+     left:20%;
+     margin: 20px; 
+
+}
+.footer_logo{
+    color: rgb(109, 109, 109);
+    font-size: 40px;
+    position: relative;
+    top: 130px;
+    font-weight: 800;
+    left: 42%;
+}
+.adress{
+    top: 200px;
+    color: rgb(121, 121, 121);
+    position: relative;
+    margin: 30px;
+    left: 15%;
+    font-size: 23px;
+}
+.company{
+    color: rgb(104, 105, 105);
+    position: relative;
+    top: 300px;
+    right: 21%;
+    
+}

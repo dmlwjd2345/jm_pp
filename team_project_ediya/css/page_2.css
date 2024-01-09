@@ -1,0 +1,49 @@
+
+ .page_2{
+    width: 1920px;
+     height: 1080px;
+   /*background-color: aquamarine; */
+ }
+ .con_title{
+    text-align: center;
+    line-height: 5;
+    font-size: 60px;
+    font-weight: 800;
+ }
+ .con_box{
+    width: 400px;
+    height: 50%;
+    /* background-color: antiquewhite; */
+    float: left;
+    margin:40px; 
+ }
+ .in_title{
+
+    text-align: center; 
+    margin: 0px auto;
+    font-size: 30px;   
+    font-weight: 400;
+ }
+ .in_title:nth-child(2){
+    margin-left: 10px;
+ }
+ img{
+ width: 100%;
+
+}
+.menu_name{
+    text-align: center;
+    line-height: 3;
+    margin: 0px auto;
+    font-size: 25px;
+    font-weight: 300;
+}
+.view_box{
+    width: 100PX;
+    height: 25PX;
+    border: 1PX solid rgb(24, 24, 82);
+    font-size: 10px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 2.3;
+}

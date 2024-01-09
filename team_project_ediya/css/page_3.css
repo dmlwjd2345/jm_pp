@@ -1,0 +1,133 @@
+.page_3{
+    width: 100%;
+    height: 1080px;
+    background-image: url(../img/3page_background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.hover_img{
+    width: 500px;
+    height: 70px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -250px;
+    background-image: url(../img/hover.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.hover_icon{
+    width: 30px;
+    height: 60px;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    margin-left: -15px;
+    background-image: url(../img/arrowMAIN.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    animation: hover_ani 1s step-end infinite;
+}
+@keyframes hover_ani {
+    50% {
+        opacity: 0;
+      }
+    }
+    
+/* 제품이미지 */
+.main_food_box{
+    width: 700px;
+    height: 900px;
+    position: absolute;
+    top: 50%;
+    margin-top: -450px;
+    left: 50%;
+    margin-left: -350px;
+    z-index: 11;
+    /* background-color: bisque; */
+}
+.main_food_img{
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/green_onion_creamcheesebagle.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-color: aquamarine; */
+}
+.main_food_box>h2{
+    text-align: center;
+    margin-top: -100px;
+}
+.main_food_box>h5{
+    margin-left: 180px;
+    font-weight: 400;
+}
+/* 오른쪽부터 */
+.page_3 h4{
+    text-align: center;
+}
+
+.food_box{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    margin-top: -80px;
+    left: 50%;
+}
+/* 매콤 로제 구운 주먹밥 */
+.food_box:nth-child(4){ 
+    margin-top: -120px;
+    margin-left: -900px;
+}
+/* 까르보나라 구운 주먹밥 */
+.food_box:nth-child(5){
+    margin-left: -600px;
+}
+/* 불고기 브리또 */
+.food_box:nth-child(6){
+    margin-top: -80px;
+    margin-left: 400px;
+}
+/* 핫치킨 브리또 */
+.food_box:nth-child(7){ 
+    margin-top: -160px;
+    margin-left: 700px;
+}
+.food_box:nth-child(6)>h4,.food_box:nth-child(7)>h4{
+    z-index: 10;
+    margin-top: -45px;
+}
+/* 속재료 */
+aside{
+    width: 420px;
+    height: 150px;
+    float: left;
+    margin-left: 130px;
+    margin-top: 110px;
+    bottom: 0;
+    /* background-color: aqua; */
+}
+.pop_img{
+    width: 110px;
+    height: 110px;
+    float: left;
+    margin: 0 15px;
+    opacity: 0;
+    transition-duration: 0.55s;
+    /* background-color: antiquewhite; */
+}
+
+
+.pop_img>h4{
+    color: white;
+}
+
+/* hover효과 */
+.main_food_box:hover .pop_img{
+    opacity: 1;
+}
+.main_food_img:hover{
+    background-size: 1.1;
+}
