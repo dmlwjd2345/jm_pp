@@ -1,0 +1,240 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+.wrap{
+    width: 1920px;
+    height: 5163px;
+    /* background-color: black; */
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.out_box:nth-child(1){
+   height: 320px; 
+   background-color:rgb(22, 51, 89);
+   position: relative;
+   
+} 
+/* .box_1{
+    background-color: aqua;
+     */
+    
+     .out_box:nth-child(1)>.box_1{
+        position: absolute;
+     }
+.out_box:nth-child(1)>.box_1:nth-child(1){
+   width: 100%;
+    height: 45px;
+    background-color: rgb(253, 253, 253);
+    top: 0;
+    left: 0;
+    font-size: 25px;
+   font-weight: 800;
+
+
+}
+.out_box:nth-child(1)>.box_1:nth-child(2){
+    width: 450px;
+    height: 50px;
+    /* background-color: yellow; */
+    /* border: 1px solid black;
+    box-sizing: border-box;
+  */
+  top: 55px;
+  right: 40px;
+  color: rgb(255, 255, 255);
+  font-size: 22PX;
+    line-height: 50px;
+    
+
+}
+.out_box:nth-child(1)>.box_1:nth-child(3){
+    width: 420px;
+    height: 70px;
+    /* background-color: aqua; */
+   left: 50%;
+    top: 150px;
+    margin-left: -210px;
+    color: aliceblue;
+    font-size: 60PX;
+    text-align: center;
+    line-height: 60PX;
+    font-weight: 600;
+}
+.out_box:nth-child(1)>.box_1:nth-child(4){
+    width: 820px;
+    height: 75px;
+   bottom: 0 ;
+   left: 150px;
+    /* background-color: aqua; */
+    color: aliceblue;
+    line-height: 80px;
+    font-size: 25px;
+}
+.out_box:nth-child(2){
+    width: 1740px;
+    height: 500px;
+    /* background-color: rgb(255, 255, 255); */
+   margin: 0 auto;
+
+}
+.out_box:nth-child(2)>img{
+    width: 1740px;
+    height: 500px;
+    margin: 0 auto;
+}
+.box_3{
+    width: 1047px;
+    height: 200px;
+    margin: 45px auto;
+    background-image: url(./img/아이템.jpg);
+    background-repeat: no-repeat;
+   
+   
+}
+.out_box:nth-child(4){
+    width: 1300px;
+    height: 700px;
+    margin: 0 auto;
+    position: relative;
+    top: 240px;
+    
+}
+.out_box:nth-child(4)>img{
+    width: 100%;
+    height: 100%;
+    margin-top: -240px;
+}
+.box_5{
+    width: 500px;
+    height: 700px;
+    /* background-color: aliceblue; */
+    border: 5px solid purple;
+    float: left;
+    margin:  10px;
+    position: relative;
+    left: 160px;
+    top: 300px;
+}
+.box_5:nth-child(1)>img{
+    width: 100%;
+    height: 550px;
+}
+
+.box_5:nth-child(2)>img{
+    width: 100%;
+    height: 550px;
+} 
+.box_5:nth-child(3)>img{
+        width: 100%;
+        height: 550px;
+    }
+
+h1{
+    color: rgb(0, 4, 7);
+    font-size: 25px;
+    text-align: center;
+  
+    
+}
+h2{
+    color: rgb(140, 140, 141);
+    font-size: 17px;
+    text-align: center;
+}
+
+
+.out_box:nth-child(6){
+    width: 300px;
+    height: 150px;
+    /* background-color: aqua; */
+    position: relative;
+    top: 350px; 
+    margin: 0 auto;
+}
+.out_box:nth-child(6)>div{
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.box_6{
+    width: 475px;
+    height: 1000px;
+    border: 2px solid steelblue;
+    float: right;
+    margin: 0px 8px;
+    position: relative;
+    top: 465px;
+}
+.text_box_1 p{
+ text-align: center;
+ font-size: 25px;
+margin-top: 48px;
+}
+.text_box_2 p{
+    text-align: center;
+    font-size: 50px;
+}
+.box_6>img{
+    width: 100%;
+    height: 800px;
+}
+/* .out_box:nth-child(6)> .box_6:nth-child(3)>img{
+    width: 100%;
+    height: 100%;
+} */
+.out_box:nth-child(7)>.box_6:nth-child(3){
+    width: 889px;
+}
+.banner_box{
+    background-image: url(./img/배너2.jpg);
+}
+.out_box:nth-child(8){
+    width: 300px;
+    height: 150px;
+    /* background-color: aqua; */
+    position: relative;
+     top: 550px;
+     margin: 0 auto;
+}
+.out_box:nth-child(8)>div{
+    font-size: 50px;
+    color: honeydew;
+}
+.box_7{
+    width: 447px;
+    height: 500px;
+    /* background-color: rgb(249, 255, 255); */
+    border: 1px solid purple;
+    float: left;
+    margin: 10px;
+    position: relative;
+    top: 700px;
+   
+}
+.box_7>img{
+    width:100%;
+    height: 100%;  
+}
+.box_7>span{
+    font-size: 20px;
+    font-weight: 1000;
+    text-align: center;
+ 
+}
+.box_7>.sp_2{
+    color: cadetblue;
+}
+.out_box:nth-child(10){
+    width: 100%;
+    height: 300px;
+    background-color: rgb(29, 144, 245);
+    background-image: url(./img/푸터.jpg);
+    position: relative;
+    top: 3030px;
+}

@@ -1,0 +1,771 @@
+@media all and (min-width:1400px){
+    
+    /* 헤더 */
+    header{
+        width: 100%;
+        height: 100px;
+        background: rgb(0, 0, 0);
+        padding: 30px 80px;
+        box-sizing: border-box;
+    }
+  
+    header a{
+        color: white;
+    }
+    .logo{
+        width: 90px;
+        height: 30px;
+        background-image: url(../img/main_logo.png);
+        background-size: 100% 100%;
+        float: left;
+        /* margin-top: 30px; */
+    }
+    .h_menu_wrap{
+        width: 100%;
+        height: 0;
+    }
+    .top_menu_wrap{
+        width: 80%;
+        height: 30px;
+        /* float: left; */
+        /* margin-left: 8%; */
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .top_menu{
+        width: 200px;
+        height: 30px;
+        font-size: 15px;
+        color: white;
+        font-weight: 900;
+        /* float: left;
+        width: 100px; */
+        text-align: center;
+        line-height: 30px;
+        /* background-color: aqua; */
+    }
+    .top_menu:hover .sub_menu_wrap{
+        height: 500px;
+    }
+  
+    /* 서브메뉴 */
+    .sub_menu_wrap{
+        position: absolute;
+        width: 1395px;
+        height: 0;
+        z-index: 9999;
+        overflow: hidden;
+        /* margin-left: -30px; */
+    }
+    .sub_menu{
+        width: 126px;
+        height: 50px;
+        background: black;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        line-height: 50px;
+        /* margin-left: 10px; */
+        border-bottom: 1px solid white;
+        opacity: 0.7;
+        box-sizing: border-box;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .sub_menu:hover{
+        background-color: white;
+    }
+    .sub_menu:hover a{
+        color: black;
+    }
+
+    .menu_on{
+        height: 1950px;
+    }
+    .bg_on{
+        background: rgb(204, 204, 204);
+    }
+ /* 비디오 */
+    video{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .main_video{
+        width: 100%;
+        height: calc(100vh - 100px);
+    }
+
+    .page{
+        width: 100%;
+        height: 100vh;
+        padding: calc((100vh - 700px)*0.5) 0;
+        box-sizing: border-box;
+    }
+/* 카테고리 영역 */
+    .category_wrap{
+        height: 100vh;
+        display: flex;
+        padding-top: 7%;
+        box-sizing: border-box;
+    }
+    
+
+    .c_text{
+        font-size: 2rem;
+        font-weight: 900;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        /* margin-left: -100px; */
+        z-index: 99999;
+        line-height: 80px;
+    }
+    .c_text2{
+        font-size: 1.7rem;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        z-index: 99999;
+        
+    }
+    .c_text_1{
+        margin-left: -65px;
+    }
+    .c_text_2{
+        margin-left: -125px;
+    }
+    .c_text_3{
+        margin-left: -70px;
+    }
+    .c_text_4{
+        margin-left: -130px;
+    }
+
+    .c_text2_1{
+        margin-left: -110px;
+    }
+    .c_text2_2,.c_text2_4{
+        margin-left: -150px;
+    }
+    .c_text2_3{
+        margin-left: -75px;
+    }
+
+    .category_box{
+        width: calc(100% / 4);
+        height: 700px;
+        border-left: 1px solid rgb(224, 224, 224);
+        background-size: 100% 100%;
+        text-align: center;
+        line-height: 50px;
+        /* padding-top: 200px;
+        box-sizing: border-box; */
+        background: white;
+        overflow: hidden;
+        position: relative;
+    }
+    .category_box .c_text{
+        color: rgb(28, 19, 112);
+    }
+    .category_box .c_text2{
+        color: rgb(28, 19, 112);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .c_o{
+        width: 220px;
+        height: 220px;
+        border-radius: 220px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -110px;
+        margin-top: -145px;
+        margin-bottom: 100px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        transition-duration: 0.7s;
+    
+        
+    }
+    .c_o_1{
+        background-image: url(../img/Category1_1.png);
+    }
+    .c_o_2{
+        background-image: url(../img/Category2.png);
+    }
+    .c_o_3{
+        background-image: url(../img/Category3.png);
+    }
+    .c_o_4{
+        background-image: url(../img/Category4.png);
+    }
+    .category_box span{
+        color: black;
+    }
+
+    .category_box:hover .c_text{
+        color: white;
+    }
+    .category_box:hover .c_text2{
+        color: white;
+        
+    }
+    .category_box:nth-child(1):hover .c_o_1{
+        transform: scale(2.4);
+        border-radius: 0;
+        width: 55%;
+        height: 42%;
+       
+    }
+
+    .category_box:nth-child(2):hover .c_o_2{
+        transform: scale(2.4);
+        border-radius: 0;
+        width: 55%;
+        height: 42%;
+    }
+    .category_box:nth-child(3):hover .c_o_3{
+        transform: scale(2.4);
+        border-radius: 0;
+        width: 55%;
+        height: 42%;
+    }
+    .category_box:nth-child(4):hover .c_o_4{
+        transform: scale(2.4);
+        border-radius: 0;
+        width: 55%;
+        height: 42%;
+    }
+     /* 카테고리 끝 */
+
+
+    /* 베스트아이템 불켜지는영역 */
+    .best_wrap{
+        height: 100vh;
+        position: relative;
+    }
+    /* .best_wrap img{
+        width: 500px;
+        height: 580px;
+        /* border-radius: 100px; */
+    /* }  */
+    .best_one_box{
+        width: 80%;
+        height: 80vh;
+        background-color: rgb(28, 19, 112);
+        position: relative;
+        top: 50%;
+        left: 50%;
+        margin-top: -40vh;
+        margin-left: -40vw;
+        /* border-radius: 400px; */
+    }
+    .text_box{
+        position: absolute;
+        top: 28%;
+        left: 15%;
+        
+    }
+    .best_one_box p{
+        font-size: 2.3rem;
+        color: white;
+        text-align: center;
+        line-height: 50px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+       
+    }
+    .text_box1 .t_1{
+        font-size: 1.5rem;
+        line-height: 40px;
+    
+    }
+    .text_box1{
+        position: absolute;
+        /* width: 50%; */
+        /* height: 300px; */
+        left: 10%;
+        bottom: 32%;
+        
+    }
+    
+    /* 왼쪽 클릭 */
+    .left_but1{
+        width: 60px;
+        height: 60px;
+        /* background: rgb(255, 216, 216); */
+        position: absolute;
+        left: 4%;
+        top: 40%;
+        margin-top: 50px;
+        background-image: url(../img/left_but.png);
+        background-size: 100% 100%;
+    }
+
+    /* 오른쪽 클릭 */
+    .right_but1{
+        width: 60px;
+        height: 60px;
+        /* background: rgb(255, 216, 216); */
+        position: absolute;
+        right: 4%;
+        top: 40%;
+        margin-top: 50px;
+        background-image: url(../img/right_but.png);
+        background-size: 100% 100%;
+    }
+
+    .click_mask{
+        width: 450px;
+        height: 550px;
+        /* border-radius: 100px; */
+        position: relative;
+        top: 13%;
+        right: -57%;
+        margin-top: -200px;
+        overflow: hidden;
+    }
+    .click_move{
+        width: calc(450px * 3);
+        height: 550px;
+        top: 0;
+        left: 0;
+        /* border-radius: 100px; */
+        position: absolute;
+    }
+    
+    .best_items{
+        width: 450px;
+        height: 550px;
+        float: left;
+    }
+    .best_items img{
+        width: 100%;
+        height: 100%;
+    }
+    .but{
+        width: 66px;
+        height: 66px;
+        background-image: url(../img/but.png);
+        position: absolute;
+        left: 30%;
+        bottom: 13%;
+    }
+    /* 껐다 켜기 끝!^.^ */
+    
+    /* 인테리어별 추천조명 영역시작 */
+    .recommendation_wrap{
+            width: 100%;
+            height: 1080px;
+            position: relative;
+    }
+    .logo2{
+        position: absolute;
+        left: 23px;
+    }
+    .recommendation_box{
+        width: 100%;
+        height: 700px;
+        float: left;
+        position: absolute;
+        top: 100px;
+        
+        /* left: 1%; */
+    }
+    
+    .recommendation_box img{
+        width: 100%;
+        height: 700px;
+        border-radius:0px 100px 0px 0px;
+    }
+    .recommendation_text{
+        width: 300px;
+        height: 50px;
+        /* background-color: rgb(105, 105, 105); */
+        position: absolute;
+        top: 630px;
+        left: 50px;
+        line-height: 23px;
+        font-size: 20px;
+        font-weight: 900;
+    
+    }
+    .r_t{
+        color: white;
+    }
+    .r_t_1{
+        font-weight: 900;
+        font-size: 20px;
+    }
+    
+    .r_t1{
+        font-size: 15px;
+    }
+    .recommendation_text2{
+        position: relative;
+        bottom: 80px;
+        left: 30px;
+    }
+    .recommendation_text3{
+        position: relative;
+        bottom: 80px;
+        left: 30px;
+    }
+    .recommendation_box>.r_box:nth-child(1){
+        margin-left: 30px;
+    }
+    .r_box{
+        width: 30.5%;
+        height: 700px;
+        /* background-color: rgb(38, 43, 38); */
+        float: left;
+        margin:0 20px;
+    }
+    .r_box3{
+        margin-right: 0;
+    }
+    .stand_box{
+        width: 100%;
+        height: 250px;
+        float: left;
+        position: absolute;
+        bottom: 20px;
+      
+    }
+    .stand_box img{
+        width: 100%;
+        height: 100%;
+    }
+    .s_box:hover img{
+       opacity: 0.1;
+        
+    }
+    .s_box:hover p{
+        font-size: 15px;
+        color: white;
+
+    }
+    .s_box{
+        width: 15%;
+        height: 250px;
+        float: left;
+        position: relative;
+        top: 0;
+        left: 30px;
+        font-size: 0;
+        background-color: black;
+    }
+
+    .s_box p{
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        font-size: 0px;
+    }
+    .s_box1 p{
+        left: 23%;
+    }
+    .s_box2{
+        left: 40px;
+    }
+    .s_box2 p{
+        left: 21.5%;
+    }
+    .s_box3{
+        left: 80px;
+    }
+    .s_box3 p{
+        left: 15%;
+    }
+    .s_box4{
+        left: 90px;
+    }
+    .s_box4 p{
+        left: 13%;
+    }
+    .s_box5{
+        left: 130px;
+    }
+    .s_box5 p{
+        left: 15%;
+    }
+    .s_box6{
+        left: 140px;
+    }
+    .s_box6 p{
+        left: 9%;
+    }
+    img{width: 100%;
+    height: 100%;}
+    /* .s_box{
+        position: absolute;
+        bottom: 10px;
+    } */
+
+
+    /* -하단 배너영역 */
+    .banner_wrap{
+        width: 100%;
+        height: 100vh;
+        padding-top: 5%;
+        padding-left: 200px;
+        box-sizing: border-box;
+    }
+    .mask{
+        position: relative;
+        width: 35vw;
+        height: 80vh;
+        overflow: hidden;
+
+    }
+    .move_box{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 175vw;
+        height: 80vh;
+        
+    }
+    
+    .banner_box{
+        width: 35vw;
+        height: 80vh;
+        float: left;
+        background-size: 100% 100%;
+        padding: 50px;
+        box-sizing: border-box;
+        text-align: left;
+    }
+ 
+   .b_text{
+    font-size: 20px;
+    margin-top: 20px;
+     font-weight: 500;
+   }
+   .mask1{
+    width: 25vw;
+    height: 55vh;
+    /* background-color: blue; */
+    overflow: hidden;
+    position: relative;
+    bottom: 70%;
+    left: 50%;
+   }
+   .move_box1{
+    width: 125vw;
+    height: 55vh;
+    position: absolute;
+    /* background-color: aqua; */
+ 
+   }
+   .banner_box1{
+    width: 25vw;
+    height: 30vh;
+    /* background-color: rgb(2, 24, 24); */
+    position: relative;
+    top: 15%;
+    font-size: 40PX;
+    font-weight: 900;
+    margin-top: 50px;
+    line-height: 60px;
+    float: left;
+}
+.click_box{
+    width: 180px;
+    height: 50px;
+    background-color: rgb(23, 21, 121);
+    position:absolute;
+    bottom: 0%;
+    font-size: 23px;
+    text-align: center;
+    line-height: 50px;
+}
+.click_box a{
+    color: white;
+}
+    .b_t_top{
+        font-size: 1.4rem;
+        color: white;
+        line-height: 50px;
+    }
+    .b_t_bottom{
+        font-size: 2.3rem;
+        color: white;
+        line-height: 50px;
+        font-weight: 900;
+    }
+
+    .banner_box:nth-child(1){
+        background-image: url(../img/Banner1.png);
+    }
+    .banner_box:nth-child(2){
+        background-image: url(../img/Banner2.png);
+    }
+    .banner_box:nth-child(3){
+        background-image: url(../img/Banner3.png);
+    }
+    .banner_box:nth-child(4){
+        background-image: url(../img/Banner4.png);
+    }
+    .banner_box:nth-child(5){
+        background-image: url(../img/Banner5.png);
+    }
+
+    .banner_but{
+        width: 75px;
+        height: 75px;
+        font-size: 3rem;
+        font-weight: 900;
+        color: rgb(23, 21, 121);
+        border-radius: 50px;
+        position: relative;
+        top: -140%;
+        left: 50%;
+        text-align: center;
+        line-height: 60px;
+    }
+
+    .left_but{
+    }
+    .right_but{
+        top: -148.7%;
+        left: 58%;
+    }
+
+    /* 푸터 */
+    footer{
+        width: 100%;
+        height: 250px;
+        background-color: cadetblue;
+        position: relative;
+    }
+    h2{
+        width: 100px;
+        height: 35px;
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+    .span_box{
+        width: 700px;
+        height: 50px;
+        /* position: absolute;
+        top: 30%;
+        left: 20%; */
+        text-align: center;
+        margin: 0 auto;
+        line-height: 150px;
+      
+    
+    }
+    .span_box span{
+        margin-left: 40px;
+      
+    }
+    .span_box2{
+        width: 900px;
+        height: 50px;
+        /* position: absolute;
+        top: 50%;
+        left: 20%; */
+        text-align: center;
+        margin: 70px auto;
+    
+      
+    }
+
+/* 오른쪽 메뉴바 */
+    .right_menu_wrap{
+        position: fixed;
+        right: 0;
+        top: 50%;
+        background: gainsboro;
+        width: 80px;
+        height: 430px;
+        margin-top: -250px;
+        border-radius: 10px;
+    
+    }
+    
+    .right_menu{
+        width: 60px;
+        height: 60px;
+        margin-top: 10px;
+        background: white;
+        border-radius: 10px;
+        margin-left: 10px;
+        position: relative;
+    }
+    
+    .icon{
+        width: 30px;
+        height: 30px;
+        background-size: 100% 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+    
+    .icon_1{
+        background-image: url(../img/s_icon.png);
+        margin-top: -15px;
+        margin-left: -15px;
+    }
+    
+    .icon_2{
+        background-image: url(../img/shopping.png);
+        width: 33px; height: 33px;
+        margin-top: -16.5px;
+        margin-left: -17px;
+    }
+    .icon_3{
+        background-image: url(../img/eye.png);
+        width: 35px;
+        margin-top: -14px;
+        margin-left: -15px;
+    }
+    .icon_4{
+        background-image: url(../img/heart.png);
+        margin-top: -15px;
+        margin-left: -15px;
+    }
+    .icon_5{
+        background-image: url(../img/good.png);
+        width: 37px; height: 37px;
+        margin-top: -18.5px;
+        margin-left: -18.5px;
+    }
+    .icon_6{
+        background-image: url(../img/car.png);
+        width: 35px; height: 33px;
+        margin-top: -17px;
+        margin-left: -16px;
+    }
+
+    .icon_text{
+        width: 130px;
+        height: 50px;
+        background-color: rgb(158, 158, 158);
+        position: relative;
+        top: -36%;
+        left: -160px;
+        border-radius: 20px;
+        color: white;
+        text-align: center;
+        line-height: 50px;
+        /* opacity: 0; */
+        display: none;
+        
+
+    }
+    .right_menu:hover .icon_text{
+        display: block;
+    }
+
+
+
+
+
+    
+}
